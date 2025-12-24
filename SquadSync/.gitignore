@@ -1,0 +1,100 @@
+# =====================================================
+# 👨‍💻  General Node / MERN Project .gitignore
+# =====================================================
+
+# --- Node modules ---
+node_modules/
+**/node_modules/
+
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Build outputs ---
+# React / Vite / CRA build folders
+squad-sync-frontend/build/
+squad-sync-frontend/dist/
+# Next.js (if used in future)
+.next/
+out/
+
+# Express build output (if you transpile in future)
+backend/dist/
+backend/build/
+
+# --- Environment files (NEVER commit secrets) ---
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+squad-sync-frontend/.env
+
+
+# --- Temporary / cache files ---
+*.tmp
+*.temp
+.tmp/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- Coverage / tests ---
+coverage/
+*.lcov
+
+# --- Debugging ---
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# --- Misc generated files ---
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Local databases / uploads ---
+uploads/
+data/
+*.sqlite
+*.db
+
+# --- Misc project-specific ---
+# Example: don't commit seed data exports
+backend/scripts/testdata/
+squad-sync-frontend/.vite/
+
+# =====================================================
+# 👨‍💻  Specific app folders
+# =====================================================
+
+# React frontend
+/squad-sync-frontend/node_modules
+/squad-sync-frontend/dist
+/squad-sync-frontend/.vite
+
+# Express backend
+/backend/node_modules
+
+# --- System backups ---
+*.bak
+*.old
+
+# --- Ignore everything in production build outputs ---
+# (These will be built by CI/CD, not versioned)
+build/
+dist/
