@@ -1,9 +1,6 @@
-# SquadSync 🎮
+# SquadSync 
 
 A modern team-finding web application that helps users connect with teammates for events, games, and activities. Built with the MERN stack (MongoDB, Express.js, React, Node.js).
-
-![SquadSync](https://img.shields.io/badge/Status-In%20Development-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📋 Table of Contents
 
@@ -15,7 +12,6 @@ A modern team-finding web application that helps users connect with teammates fo
 - [Environment Variables](#-environment-variables)
 - [Running the Application](#-running-the-application)
 - [API Endpoints](#-api-endpoints)
-- [Contributing](#-contributing)
 
 ## ✨ Features
 
