@@ -223,10 +223,3 @@ npm start
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/send-email` | Send email notification |
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
