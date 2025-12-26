@@ -16,7 +16,6 @@ A modern team-finding web application that helps users connect with teammates fo
 - [Running the Application](#-running-the-application)
 - [API Endpoints](#-api-endpoints)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ## ✨ Features
 
